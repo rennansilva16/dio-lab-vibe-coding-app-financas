@@ -332,6 +332,8 @@ A ideia continua sendo humana. A IA ajuda a transformar essa ideia em algo real.
 
 # 📌 Projeto
 
-Projeto desenvolvido como parte do desafio do curso de Produtos com IA / Vibe Coding da DIO.
+Projeto desenvolvido para o desafio **Produtos com IA / Vibe Coding** da DIO, explorando o uso de Inteligência Artificial na criação e desenvolvimento de um produto digital.
 
-O objetivo principal foi explorar o processo de criação de um produto utilizando Inteligência Artificial como parte ativa do desenvolvimento, desde a concepção da ideia até a construção da aplicação.
+🚀 **Teste a aplicação:**
+
+[Finance AI](https://pixel-perfect-view-2994.lovable.app/entrar)
