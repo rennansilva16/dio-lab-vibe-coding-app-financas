@@ -336,4 +336,4 @@ Projeto desenvolvido para o desafio **Produtos com IA / Vibe Coding** da DIO, ex
 
 🚀 **Teste a aplicação:**
 
-[Finance AI](https://pixel-perfect-view-2994.lovable.app/entrar)
+[Finly](https://pixel-perfect-view-2994.lovable.app/entrar)
