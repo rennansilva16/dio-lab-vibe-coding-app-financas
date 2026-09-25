@@ -305,17 +305,30 @@ A ideia continua sendo humana. A IA ajuda a transformar essa ideia em algo real.
 - **GitHub Copilot** — apoio na estruturação inicial do projeto e PRD
 - **ChatGPT** — refinamento de requisitos, PRD e prompts
 
-## Demonstração 
+## Demonstração
 
-### Dashboard
+### Insights
+<img src="https://github.com/user-attachments/assets/757b7bab-719c-44d5-b00a-e3d3c56a3116" alt="insight" width="320"/>
 
 ### Chat com IA
+<img src="https://github.com/user-attachments/assets/78197465-553d-48db-8d89-f1399f553f65" alt="chat-ia" width="320"/>
 
-### Movimentações 
+<img src="https://github.com/user-attachments/assets/d71f93f7-f660-4905-9102-f12e317feae0" alt="chat" width="320"/>
+
+### Movimentações
+<img src="https://github.com/user-attachments/assets/76b99608-6c29-40c5-9402-c287a5ee4a51" alt="movimentacao" width="320"/>
 
 ### Investimentos
+<img src="https://github.com/user-attachments/assets/10035e52-8e80-4979-8d3e-16a8eea5ea43" alt="investimento" width="320"/>
 
 ### Metas
+<img src="https://github.com/user-attachments/assets/0195ed9f-84c5-46f4-a8d3-1c63e7a11a4f" alt="meta" width="320"/>
+
+### Dívidas
+<img src="https://github.com/user-attachments/assets/ee3f63a9-113c-4bf4-9f66-19c03b20ef0a" alt="divida" width="320"/>
+
+<img src="https://github.com/user-attachments/assets/314189d5-d0d0-4fbb-93cf-9674393d3624" alt="cadastro-divida" width="320"/>
+
 
 # 📌 Projeto
 
