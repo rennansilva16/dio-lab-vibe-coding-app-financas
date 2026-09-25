@@ -4,11 +4,11 @@ Uma experiência de desenvolvimento utilizando **Inteligência Artificial como p
 
 Neste projeto, utilizei ferramentas como **GitHub Copilot, ChatGPT e Lovable** para transformar uma ideia inicial em um aplicativo de organização financeira pessoal.
 
-Mais do que desenvolver uma aplicação, o objetivo foi experimentar uma nova forma de construir software: utilizando **linguagem natural, contexto, refinamento de ideias e interação contínua com a IA** para transformar requisitos em uma solução funcional.
+O objetivo foi experimentar uma nova forma de construir software: utilizando **linguagem natural, contexto, refinamento de ideias e interação contínua com a IA** para transformar requisitos em uma solução funcional.
 
 ---
 
-## ✨ O que é Vibe Coding?
+# ✨ O que é Vibe Coding?
 
 **Vibe Coding** é uma abordagem de desenvolvimento em que a Inteligência Artificial participa ativamente do processo de criação do software.
 
@@ -77,8 +77,6 @@ Por exemplo, inicialmente a ideia era concentrar grande parte da experiência no
 - **Investimentos:** acompanhar a carteira e informações relacionadas;
 - **Metas, limites e dívidas:** organizar aspectos específicos da vida financeira.
 
-Essa etapa foi importante porque mostrou que construir um produto com IA não começa necessariamente pelo código. Antes de pedir para a IA construir algo, é necessário **entender o que deve ser construído**.
-
 ### Prompt inicial utilizado
 
 O modelo abaixo foi utilizado como ponto de partida e posteriormente adaptado conforme os requisitos e decisões tomadas durante as conversas com as IAs:
@@ -105,12 +103,11 @@ Pessoas que querem começar a organizar suas finanças de forma prática e sem c
 # Entregável da IA
 Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.
 Usar tom educativo e linguagem acessível, em português.
-
+```
 O PRD foi posteriormente ampliado e refinado antes de ser utilizado como base para a construção da aplicação.
 
 ---
-
-# 🪄 2. Construindo a aplicação com o Lovable
+## 2. Construindo a aplicação com o Lovable
 
 Com o PRD estruturado e revisado, utilizei o Lovable para transformar os requisitos em uma aplicação funcional.
 
@@ -123,12 +120,7 @@ Durante essa etapa, o Lovable foi orientado a implementar as principais partes d
 - Registro de movimentações;
 - Categorias;
 - Limites de gastos;
-- Dívidas;
-- Metas;
-- Investimentos;
-- Carteira de investimentos;
 - Insights financeiros;
-- Notificações;
 - Autenticação;
 - Interface responsiva.
 
@@ -136,13 +128,9 @@ A construção não aconteceu completamente de uma única vez.
 
 O Lovable inicialmente implementou parte das funcionalidades e deixou algumas áreas indicadas como **“Em breve”**. Após uma nova interação, solicitei que as funcionalidades restantes fossem implementadas.
 
-Esse processo mostrou uma característica importante do desenvolvimento utilizando IA: o primeiro resultado nem sempre representa o resultado final desejado.
-
-É necessário analisar o que foi construído, comparar com os requisitos e continuar orientando a ferramenta.
-
 ---
 
-# 🖥️ 3. Resultado
+## 3. Resultado
 
 O resultado foi uma aplicação de organização financeira com uma interface moderna e intuitiva.
 
@@ -150,7 +138,7 @@ O usuário consegue visualizar sua situação financeira através do dashboard e
 
 Entre as funcionalidades implementadas estão:
 
-## 💰 Dashboard
+### Dashboard
 
 Apresenta um resumo da situação financeira do usuário, incluindo informações como:
 
@@ -161,7 +149,7 @@ Apresenta um resumo da situação financeira do usuário, incluindo informaçõe
 - Dívidas;
 - Alertas e informações relevantes.
 
-## 💬 Chat com IA
+### Chat com IA
 
 Permite interagir com o agente utilizando linguagem natural.
 
@@ -175,27 +163,27 @@ Exemplos:
 
 A ideia é tornar o registro e a consulta de informações mais naturais do que o preenchimento de diversos formulários.
 
-## 📊 Movimentações
+### Movimentações
 
 Área destinada ao acompanhamento das receitas e despesas registradas.
 
-## 🎯 Metas
+### Metas
 
 Permite acompanhar objetivos financeiros.
 
-## 💳 Dívidas
+### Dívidas
 
 Área destinada ao acompanhamento de valores devidos.
 
-## 📈 Investimentos
+### Investimentos
 
 Área destinada ao acompanhamento dos investimentos e da carteira.
 
-## 💡 Insights
+### Insights
 
 Apresenta análises sobre os dados financeiros do usuário.
 
-## 🔔 Notificações
+### Notificações
 
 Centraliza alertas e informações que podem exigir atenção do usuário.
 
@@ -211,7 +199,7 @@ Essa funcionalidade não estava entre os principais requisitos que eu havia defi
 
 ---
 
-# 🔍 4. Avaliação do Resultado
+## 4. Avaliação do Resultado
 
 Após a aplicação ser construída, foi feita uma análise comparando o resultado com os requisitos definidos no PRD.
 
@@ -219,7 +207,7 @@ De forma geral, o resultado visual e funcional ficou próximo do que havia sido 
 
 Porém, também foram identificadas algumas limitações na implementação atual.
 
-## ✅ O que funcionou bem?
+### ✅ O que funcionou bem?
 
 As funcionalidades principais foram implementadas e a aplicação apresentou uma interface agradável, moderna e intuitiva.
 
@@ -231,7 +219,7 @@ A experiência mostrou que uma descrição clara do produto ajuda bastante a IA 
 
 ---
 
-## ⚠️ O que não funcionou como esperado?
+### ⚠️ O que não funcionou como esperado?
 
 O Lovable não implementou todas as funcionalidades solicitadas no primeiro momento.
 
@@ -254,11 +242,9 @@ Por exemplo, ainda existem limitações para:
 
 Ou seja, a interface apresenta essas funcionalidades, mas a integração entre elas e o agente de IA ainda não está completamente implementada.
 
-Isso também mostrou uma diferença importante entre ter uma funcionalidade visualmente disponível e ter todo o fluxo de negócio funcionando de ponta a ponta.
-
 ---
 
-# 🧠 5. O que aprendi sobre conversar com IAs?
+## 5. O que aprendi sobre conversar com IAs?
 
 O principal aprendizado foi perceber que a qualidade da comunicação influencia diretamente o resultado obtido com a IA.
 
@@ -280,47 +266,9 @@ Quando uma aplicação possui muitas funcionalidades, pedir que a IA construa tu
 
 Trabalhar de forma incremental permite analisar cada resultado, identificar problemas e orientar melhor a próxima etapa.
 
-Por fim, percebi que Vibe Coding não significa simplesmente pedir para a IA fazer tudo.
-
-É necessário participar do processo, avaliar o que foi produzido, identificar inconsistências e continuar conduzindo a ferramenta até chegar ao resultado desejado.
-
 ---
 
-# 📚 6. Principais aprendizados
-
-Durante o desenvolvimento, alguns pontos ficaram especialmente claros:
-
-### 1. Clareza é fundamental
-
-Uma ideia bem descrita facilita o trabalho da IA e reduz ambiguidades.
-
-### 2. O contexto importa
-
-A IA precisa entender não apenas o que deve fazer, mas também por que aquela funcionalidade existe e como ela se relaciona com o restante do produto.
-
-### 3. Um bom PRD ajuda muito
-
-Antes de construir a aplicação, organizar os requisitos ajudou a transformar uma ideia genérica em um produto mais estruturado.
-
-### 4. É importante revisar o resultado
-
-A primeira resposta da IA não deve ser considerada definitiva.
-
-É necessário testar, analisar e comparar o resultado com os requisitos.
-
-### 5. Grandes problemas podem ser divididos
-
-Dividir a construção em etapas menores facilita a comunicação com a IA e permite corrigir problemas antes de avançar.
-
-### 6. IA não substitui a tomada de decisão
-
-Mesmo utilizando ferramentas capazes de gerar grande parte da aplicação, as decisões sobre o produto continuam dependendo do desenvolvedor.
-
-A IA pode ajudar a construir, mas é necessário saber o que construir, por que construir e como avaliar se o resultado realmente atende ao objetivo.
-
----
-
-# 🚀 7. Próximos passos
+## 6. Próximos passos
 
 Embora o desafio tenha sido concluído, existem funcionalidades que podem ser evoluídas futuramente.
 
@@ -328,7 +276,6 @@ Entre elas:
 
 - Integrar completamente o Chat às funcionalidades de dívidas, metas e investimentos;
 - Permitir criação e atualização dessas entidades através de linguagem natural;
-- Melhorar a persistência e relacionamento entre movimentações e outras funcionalidades;
 - Aprimorar os insights gerados pela IA;
 - Adicionar mais automações;
 - Melhorar os relatórios financeiros;
@@ -348,8 +295,6 @@ Mais do que construir um aplicativo de finanças, o desafio permitiu explorar co
 
 O maior aprendizado foi perceber que Vibe Coding não elimina a necessidade de pensar como desenvolvedor. Pelo contrário: quanto melhor conseguimos definir problemas, comunicar ideias, avaliar resultados e tomar decisões, melhor conseguimos utilizar a IA como ferramenta de desenvolvimento.
 
-No final, a IA deixa de ser apenas uma ferramenta que gera código e passa a funcionar como uma parceira no processo de criação.
-
 A ideia continua sendo humana. A IA ajuda a transformar essa ideia em algo real.
 
 ---
@@ -359,7 +304,6 @@ A ideia continua sendo humana. A IA ajuda a transformar essa ideia em algo real.
 - **Lovable** — construção da aplicação
 - **GitHub Copilot** — apoio na estruturação inicial do projeto e PRD
 - **ChatGPT** — refinamento de requisitos, PRD e prompts
-- **Inteligência Artificial** — interação conversacional e funcionalidades do produto
 
 ## Demonstração 
 
@@ -373,7 +317,7 @@ A ideia continua sendo humana. A IA ajuda a transformar essa ideia em algo real.
 
 ### Metas
 
-## 📌 Projeto
+# 📌 Projeto
 
 Projeto desenvolvido como parte do desafio do curso de Produtos com IA / Vibe Coding da DIO.
 
